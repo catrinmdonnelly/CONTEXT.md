@@ -28,8 +28,8 @@ The pattern works at scale. If you have ten projects, you have ten CONTEXT.md fi
 
 The per-project context file pattern isn't new. If anything in here is good, the credit goes to:
 
-- **[Anthropic](https://code.claude.com/docs/en/best-practices)** for making Claude Code project-aware: it automatically loads CLAUDE.md from the project folder, which is what makes the per-folder pattern viable. This template is the "what to put in it" template.
-- **[Garry Tan / gstack](https://github.com/garrytan/gstack)** for the per-project CLAUDE.md pattern at scale, including subdirectory context files that load on demand.
+- **[Anthropic's Claude Code memory docs](https://code.claude.com/docs/en/memory)** for making Claude Code project-aware: it automatically loads context from the project folder, which is what makes the per-folder pattern viable. This template is the "what to put in it" template.
+- **[gstack](https://github.com/garrytan/gstack)** (by Garry Tan) for the per-project context pattern at scale, including subdirectory files that load on demand.
 
 What's mine is the structure (north star + goals + state + priorities + people + files + outstanding), the HTML-comment guided pattern, and the explicit separation from CLAUDE.md (operational) and NORTH-STAR.md (visionary).
 
