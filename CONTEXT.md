@@ -67,7 +67,7 @@
      Each goal should be specific enough to know if you've hit it. -->
 
 1. [Specific goal. E.g. "Land first 3 paying B2B clients on the £200/month plan"]
-2. [Specific goal. E.g. "Add fixings data for the top 5 manufacturers (Metsec, Steadmans, Albion, Tata, British Steel)"]
+2. [Specific goal. E.g. "Add product data for the top 5 suppliers in our category"]
 3. [Specific goal]
 
 ## Current state

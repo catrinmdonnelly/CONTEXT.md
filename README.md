@@ -20,7 +20,7 @@ They reference each other. CLAUDE.md mentions DESIGN.md and COPY.md via `@-impor
 
 Without a CONTEXT.md, every time you open a project folder Claude has to guess what the project is, where it sits, and what's currently going on. That's where the generic, miscalibrated answers come from.
 
-CONTEXT.md fixes it for ONE project. Drop it in the project folder. Claude reads it on every session inside that folder. Suddenly Claude knows that "the site" means clirai.co.uk, that "the v4.5 push" is what's blocked, that the first paying client is Healthcare Matters.
+CONTEXT.md fixes it for ONE project. Drop it in the project folder. Claude reads it on every session inside that folder. Suddenly Claude knows that "the site" means your actual production URL, that "the redesign" is what's blocked, and that "the main client" is the specific company you're working with.
 
 The pattern works at scale. If you have ten projects, you have ten CONTEXT.md files, each tightly scoped to its project. Claude only loads the relevant one (the one in the folder you're working in). No bleed, no clutter, no 5,000-line master file.
 
