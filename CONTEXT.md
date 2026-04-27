@@ -22,7 +22,7 @@
         - If they don't have an answer, write [TBD] and move on
      5. When you've worked through every section, output a CLEAN version:
         - Remove THIS instruction block (everything between the ═ lines above)
-        - Remove every other <!-- comment --> in the document, including the
+        - Remove every other HTML comment in the document, including the
           per-section explainer comments
         - Keep only headings + filled-in content
      6. Deliver the file as agreed in step 3 (save to disk, or paste in a
