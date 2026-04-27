@@ -108,6 +108,6 @@ The trick is to keep each scoped tightly. CLAUDE.md is operational and personal.
 
 ## License
 
-MIT. Do whatever you want with it. Credit appreciated, not required.
+MIT.
 
-Made by [Catrin Donnelly](https://catrinmd.netlify.app), North Wales.
+Made by Catrin Donnelly.
