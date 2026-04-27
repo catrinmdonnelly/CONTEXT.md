@@ -14,7 +14,7 @@ This is one of a family of five templates that customise AI for the way you actu
 
 You don't have to do all five. The minimum useful set is **CLAUDE.md + COPY.md**. Add the others as you need them.
 
-They reference each other. CLAUDE.md mentions DESIGN.md and COPY.md via `@-imports` so AI knows to load them when relevant.
+They reference each other. Your CLAUDE.md tells AI to read the others when the relevant work comes up, so you do not have to think about which file is needed when.
 
 ## Why this exists
 
@@ -24,14 +24,23 @@ CONTEXT.md fixes it for ONE project. Drop it in the project folder. Claude reads
 
 The pattern works at scale. If you have ten projects, you have ten CONTEXT.md files, each tightly scoped to its project. Claude only loads the relevant one (the one in the folder you're working in). No bleed, no clutter, no 5,000-line master file.
 
+## Built on the work of others
+
+The per-project context file pattern isn't new. If anything in here is good, the credit goes to:
+
+- **[Anthropic](https://code.claude.com/docs/en/best-practices)** for making Claude Code project-aware: it automatically loads CLAUDE.md from the project folder, which is what makes the per-folder pattern viable. This template is the "what to put in it" template.
+- **[Garry Tan / gstack](https://github.com/garrytan/gstack)** for the per-project CLAUDE.md pattern at scale, including subdirectory context files that load on demand.
+
+What's mine is the structure (north star + goals + state + priorities + people + files + outstanding), the HTML-comment guided pattern, and the explicit separation from CLAUDE.md (operational) and NORTH-STAR.md (visionary).
+
 ## How it fits with the other files
 
 | File | Scope | Loaded when |
 |------|-------|-------------|
 | **CLAUDE.md** | You as a person, how you work | Every session, automatically |
-| **NORTH-STAR.md** | Your career-level direction | When strategic questions come up (via @-import) |
+| **NORTH-STAR.md** | Your career-level direction | When strategic questions come up (CLAUDE.md tells Claude to load it) |
 | **CONTEXT.md** (per project) | What this project is and where it's going | When working in that project folder |
-| **DESIGN.md / COPY.md** | Visual / voice rules | When the relevant work comes up (via @-import) |
+| **DESIGN.md / COPY.md** | Visual / voice rules | When the relevant work comes up (CLAUDE.md tells Claude to load them) |
 
 This scoping is how you avoid duplicates. Each piece of information lives in one place, loaded at the right time.
 
