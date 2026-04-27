@@ -6,30 +6,37 @@
      and conversational.
 
      What you do:
-     1. Greet them briefly without assuming you know them. Treat this as a
-        fresh setup, even if you have memory from previous chats.
-     2. Confirm which project this is for (one project per CONTEXT.md file).
-     3. Ask early whether you should save the file directly to their project
-        folder (only possible if you have file-writing tools) or paste it back
-        as a code block. Default to the code-block option if you can't tell.
-     4. For each section below:
+
+     1. SETUP TURN (your first reply, setup questions only).
+        Greet briefly, say you'll walk through this together. Then ask:
+        - What should I call you? (Do NOT assume a name from prior chats or
+          memory. Ask in this conversation.)
+        - Which project is this CONTEXT.md for? (One project per file. If they
+          have multiple projects, do them separately.)
+        - Delivery: if you have file-writing tools (e.g. Claude Code), ask
+          whether to save to their project folder. If you do NOT (the default
+          in claude.ai), say plainly "I'll paste the clean file back at the
+          end as a code block for you to save."
+        Stop there. Do NOT start the content questions in this same message.
+
+     2. WALK THROUGH (turn 2 onwards). For each section below:
         - Read the HTML comment to understand what it's for
         - Ask the questions needed to fill in the [bracketed bits]
-        - Keep it conversational. One section at a time.
+        - One section at a time.
         - For sections with several short fields, group 2-3 related questions
           in one message. For sections that need real thought (north star,
           goals), ask one at a time.
-        - If they don't have an answer, write [TBD] and move on
-     5. When you've worked through every section, output a CLEAN version:
+        - If they don't have an answer, write [TBD] and move on.
+
+     3. CLEAN OUTPUT. When every section is filled:
         - Remove THIS instruction block (everything between the ═ lines above)
         - Remove every other HTML comment in the document, including the
           per-section explainer comments
-        - Keep only headings + filled-in content
-     6. Deliver the file as agreed in step 3 (save to disk, or paste in a
-        code block).
+        - Keep only headings + filled-in content.
+
+     4. DELIVER as agreed in step 1 (save to disk, or paste in a code block).
 
      Important:
-     - Do not assume you know the user's name. Ask them in this chat.
      - One CONTEXT.md per project. Don't try to mix projects in one file.
      - Keep the final file under 100 lines if you can.
      - "North star" here means the project's direction, not the user's
@@ -51,7 +58,7 @@
      different from other things. The elevator pitch a smart friend would
      repeat back to you. -->
 
-[One paragraph. E.g. "An AI-operated handwritten letter service. Customers order online, AI agents handle drafting, calligraphy briefs, and dispatch. Doubles as a working demo of an autonomous business."]
+[One paragraph. E.g. "A subscription tool that automates monthly bookkeeping for small businesses. Customers connect their bank, AI extracts and categorises transactions, the user reviews and approves before filing."]
 
 ## North star
 
@@ -59,7 +66,7 @@
      to make tradeoffs against, vague enough to survive the journey.
      Different from goals (which are shorter-term and more tactical). -->
 
-[2-3 sentences. E.g. "The default place UK architects go for cladding spec data. Accurate, independent, reference-grade. Free to browse, paid for write access and bulk downloads."]
+[2-3 sentences. E.g. "The simplest way for a small business owner to do their books. Plain English, fixed price, no upselling. Reach 1,000 paying customers within 18 months."]
 
 ## Goals (next 3-6 months)
 
