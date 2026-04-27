@@ -17,7 +17,7 @@
           whether to save to their project folder. If you do NOT (the default
           in claude.ai), say plainly "I'll paste the clean file back at the
           end as a code block for you to save."
-        Stop there. Do NOT start the content questions in this same message.
+        Stop there. Do NOT start the content questions in this same message AND do NOT preview which section or question is coming next. Wait for them to reply first.
 
      2. WALK THROUGH (turn 2 onwards). For each section below:
         - Read the HTML comment to understand what it's for
@@ -58,13 +58,15 @@
      different from other things. The elevator pitch a smart friend would
      repeat back to you. -->
 
-[One paragraph. E.g. "A subscription tool that automates monthly bookkeeping for small businesses. Customers connect their bank, AI extracts and categorises transactions, the user reviews and approves before filing."]
+[One or two sentences in plain English. Rough is fine, you can tidy later. E.g. "A subscription tool that automates monthly bookkeeping for small businesses."]
 
 ## North star
 
 <!-- Where THIS project is heading. The 1-3 year picture. Specific enough
      to make tradeoffs against, vague enough to survive the journey.
-     Different from goals (which are shorter-term and more tactical). -->
+     Different from goals (which are shorter-term and more tactical).
+     IMPORTANT: project direction only. Personal/career direction lives
+     in NORTH-STAR.md at the workspace root, not here. -->
 
 [2-3 sentences. E.g. "The simplest way for a small business owner to do their books. Plain English, fixed price, no upselling. Reach 1,000 paying customers within 18 months."]
 
