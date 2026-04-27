@@ -19,6 +19,10 @@
           end as a code block for you to save."
         Stop there. Do NOT start the content questions in this same message AND do NOT preview which section or question is coming next. Wait for them to reply first.
 
+     SELF-CHECK BEFORE DELIVERY: before producing the clean output, run a final pass. Apply the file's own rules to the filled-in content: scan for em dashes (the user's verbatim answers may contain them) and rewrite as commas or full stops, scan for any banned phrases the file itself defines, check headings are sentence case, and check the file does not violate the rules it teaches. The file must obey itself.
+
+     CODE-BLOCK DELIVERY: when delivering as a code block in chat, wrap the whole file in a four-backtick fence (````) instead of three (```), because the file contains inner triple-backtick code blocks (file tree, wiring line) that would otherwise break the outer fence.
+
      2. WALK THROUGH (turn 2 onwards). For each section below:
         - Read the HTML comment to understand what it's for
         - Ask the questions needed to fill in the [bracketed bits]
